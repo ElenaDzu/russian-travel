@@ -1,2 +1,7 @@
 .footer {
+  margin: 92px auto 24px;
+  width: 1184px;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
   }

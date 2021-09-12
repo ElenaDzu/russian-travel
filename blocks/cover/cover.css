@@ -1,2 +1,11 @@
 .cover {
+  margin: 0 auto;
+  max-width: 1184px;
+  height: 740px; 
   }
+
+  .cover:hover {
+    opacity: .3;
+    transition: 1s;
+  }
+
