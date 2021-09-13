@@ -3,3 +3,16 @@
   width: 456px;
   height: 46px;
   }
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    margin-top: 46px;
+    width: 352px;
+          }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    order: 2;
+    margin-top: 46px;
+    width: 352px;
+                    }

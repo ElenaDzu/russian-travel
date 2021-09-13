@@ -14,3 +14,31 @@
 .place__paragraph:last-of-type{
   margin-top: 26px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    margin-left: 0;
+    margin-right: 0;
+    width: 456px;
+    max-height: 377px;
+    }
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    margin-left: 0;
+    margin-right: 0;
+    width: 352px;
+    max-height: 182px;
+    font-size: 16px;
+    line-height: 26.08px;
+    }
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 288px;
+    max-height: 468px;
+    font-size: 16px;
+    line-height: 26.08px;
+    }
+

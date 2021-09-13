@@ -2,6 +2,30 @@
   margin: 92px auto 0;
   padding: 0;
   padding-left: 0;
-  width: 984px;
+  max-width: 984px;
+  width: 100%;
   height: 3392px;
   }
+
+  @media screen and (max-width: 1024px) {
+    .places {
+      margin-right: 48px;
+      margin-left: 48;
+      height: 3292px;
+    
+    }
+
+  @media screen and (max-width: 768px) {
+    .places {
+      margin-top: 88px;
+      height: 2808px;
+      }
+
+  @media screen and (max-width: 320px) {
+    .places {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-top: 64px;
+      min-height: 5177px;
+      }

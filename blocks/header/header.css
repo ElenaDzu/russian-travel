@@ -4,5 +4,23 @@
   flex-direction: row;
   align-self: center;
   height: 52px;
-  width: 1184px;
+  max-width: 1184px;
+  width: 100%;
   }
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin-left: 24px;
+    margin-right: 24px;
+    }
+} 
+
+@media screen and (max-width: 425px) {
+  .header {
+    min-height: 42px;
+    min-width: 288px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    }
+} 
