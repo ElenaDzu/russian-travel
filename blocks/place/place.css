@@ -8,6 +8,10 @@
   flex-wrap: wrap;
   }
 
+  .place:first-child {
+    margin-top: 92px;
+  }
+
   @media screen and (max-width: 1024px) {
     .place {
       margin-top: 73px;
