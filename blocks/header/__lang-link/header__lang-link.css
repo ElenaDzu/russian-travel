@@ -1,6 +1,6 @@
 .header__lang-link {
-  Width: 30px;
-  Height: 28px;
+  width: 30px;
+  height: 28px;
   margin-top: 18px;
   font-weight: 400;
   font-style: normal;
@@ -29,8 +29,8 @@
 
 @media screen and (max-width: 320px) {
   .header__lang-link {
-    Width: 22px;
-    Height: 20px;
+    width: 22px;
+    height: 20px;
     margin-top: 14px;
     margin-bottom: 8px;
     font-size: 18px;
