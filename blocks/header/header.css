@@ -15,12 +15,12 @@
     }
 } 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   .header {
     min-height: 42px;
-    min-width: 288px;
+    max-width: 288px;
     margin-top: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
     }
 } 

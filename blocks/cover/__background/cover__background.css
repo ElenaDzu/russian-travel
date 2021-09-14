@@ -1,3 +1,10 @@
 .cover__background {
-  background-image: url(../../../images/__background.png);
+background-color: #2A2C2F;
+opacity: .3;
+z-index: 2;
+}
+
+.cover__background:hover {
+opacity: .8;
+transition: 1s;
 }

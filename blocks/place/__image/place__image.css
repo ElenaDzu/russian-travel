@@ -19,9 +19,10 @@
     margin-right: 28px;
     }
   }
- @media screen and (max-width: 320px) and (min-width:768px) {
+ @media screen and (max-width: 320px) {
    .place__image {
     margin-top: 32px;
+    margin-right: 0;
     width: 320px;
     height: 320px;
     order: 3;

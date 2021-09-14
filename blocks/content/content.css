@@ -1,13 +1,13 @@
 .content {
   width: 100%;
-  max-width: 1024px;
+  max-width: 1280px;
   height: auto;
   display: flex;
   flex-direction: column;
   background:#2A2C2F;
   }
 
-  @media screen and (max-width: 320px)  and (min-width:768px){
+  @media screen and (max-width: 320px){
     .content {
       max-width: 100%;
     }
