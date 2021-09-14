@@ -9,6 +9,15 @@
   text-align: center;
   }
 
+  @media screen and (max-width: 684px) {
+    .lead__title {
+      max-width: 550px;
+      height: auto;
+      font-size: 65px;
+      line-height: 70px;
+      }
+    } 
+
   @media screen and (max-width: 320px) {
     .lead__title {
       max-width: 288px;
