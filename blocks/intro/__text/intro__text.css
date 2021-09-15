@@ -1,7 +1,7 @@
 .intro__text {
   margin: 40px auto 0;
   max-width: 100%;
-  max-height: 208px;
+  min-height: 208px;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
