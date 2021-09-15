@@ -34,8 +34,8 @@
   } 
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    margin: 32px auto 0;
-    max-width: 288px;
+    margin: 32px 0 0;
+    min-width: 288px;
     width: 100%;
     max-height: 468px;
     font-size: 16px;

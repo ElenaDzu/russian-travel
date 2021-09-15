@@ -2,7 +2,7 @@
   margin: 114px auto 0 148px;
   width: 100%;
   max-width: 690px;
-  min-height: 429px;
+  max-height: 429px;
   }
 
   @media screen and (max-width: 1024px) {
@@ -30,10 +30,8 @@
 
   @media screen and (max-width: 320px) {
     .intro {
-      margin-top: 64px;
-      margin-right: 16px;
-      margin-left: 16px;
+      margin: 64px 16px;
       min-height: 754px;
-      max-width: 288px;
+      min-width: 288px;
       }
     } 
