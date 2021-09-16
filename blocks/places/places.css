@@ -10,8 +10,8 @@
 
   @media screen and (max-width: 1024px) {
     .places {
-      width: 928px;
-      height: auto;
+      max-width: 928px;
+      width: 100%;
     
     }
   }
@@ -19,8 +19,7 @@
   @media screen and (max-width: 768px) {
     .places {
       margin: 0 auto;
-      height: auto;
-      width: 720px;
+      max-width: 720px;
       }
   }
 
@@ -28,7 +27,6 @@
     .places {
       display: flex;
       flex-direction: column;
-      width: 100%;
-      height: auto;
+      max-width: 100%;
       }
     }

@@ -4,8 +4,9 @@
   flex-direction: row;
   align-self: center;
   height: 52px;
-  max-width: 1184px;
   width: 100%;
+  
+  box-sizing: border-box;
   }
 
 @media screen and (max-width: 768px) {

@@ -1,7 +1,7 @@
 .page {
-  margin: 0;
+  margin: 0 auto;
   width: 100%;
-  box-sizing: border-box;
+  
   font-size: 100%;
   font-family: 'Inter', 'Arial Narrow Bold', sans-serif;
   -moz-osx-font-smoothing: grayscale;
@@ -13,4 +13,3 @@
   color: #FFFFFF;
   
 }
-
