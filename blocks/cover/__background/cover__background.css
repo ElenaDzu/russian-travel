@@ -1,52 +1,40 @@
 .cover__background {
-    margin: 92px 0 0;
-    min-height: 740px;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    text-decoration: none;
-    color: #fff;
-    background-image: url(../../../images/__background.png);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    z-index: 1;
-    }
+  margin: 0 0 0;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  z-index: 1;
+  text-decoration: none;
+  color: #fff;
+  background-image: url(../../../images/__background.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
 
 .cover__background:before {
-    content: '';
-    background-color: #2A2C2F;
-    opacity: .3;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transition: 1s;
-    z-index: -1;
+  content: '';
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: .3;
+  transition: 1s;
+  position: absolute;
+  z-index: -1;
 }
 
 .cover__background:hover::before {
-    opacity: .8;
-    cursor: pointer;
+  opacity: .8;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 1024px){
-    .cover__background {
-      min-height: 740px;
-    }
-  }
-  
-  @media screen and (max-width: 768px){
-    .cover__background {
-        min-height: 768px;
-    }
-  }
-  
-  
   @media screen and (max-width: 320px){
     .cover__background {
-       min-height: 200px;
-       margin-top: 66px;
+      min-height: 200px;
+      margin-top: 66px;
     }
   }

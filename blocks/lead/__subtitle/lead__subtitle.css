@@ -10,11 +10,11 @@
 
 @media screen and (max-width: 684px) {
   .lead__subtitle {
-      max-width: 450px;
-      font-size: 25px;
-      line-height: 28px;
-      }
-  } 
+    max-width: 450px;
+    font-size: 25px;
+    line-height: 28px;
+  }
+} 
 
 @media screen and (max-width: 320px) {
   .lead__subtitle {
@@ -22,5 +22,5 @@
     min-width: 288px;
     font-size: 16px;
     line-height: 20px;
-     }
-  } 
+  }
+} 

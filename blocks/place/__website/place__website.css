@@ -1,23 +1,21 @@
 .place__website {
-  margin: 106px 28px 0 0;
+  grid-area: place__website;
+  margin: 106px auto 0 0;
   max-width: 456px;
   width: 100%;
-  height: 46px;
   box-sizing: border-box;
-  
   }
 
 @media screen and (max-width: 768px) {
   .place__website {
     margin-top: 46px;
     max-width: 352px;
-    }
   }
+}
 
 @media screen and (max-width: 320px){
   .place__website {
     margin: 32px auto 0;
     min-width: 288px;
-    order: 2;
-    }
+  }
 }

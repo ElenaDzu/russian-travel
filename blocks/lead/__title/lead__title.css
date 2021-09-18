@@ -6,20 +6,20 @@
   font-size: 96px;
   line-height: 100px;
   text-align: center;
+}
+
+@media screen and (max-width: 684px) {
+  .lead__title {
+    max-width: 550px;
+    font-size: 65px;
+    line-height: 70px;
   }
+} 
 
-  @media screen and (max-width: 684px) {
-    .lead__title {
-      max-width: 550px;
-      font-size: 65px;
-      line-height: 70px;
-      }
-    } 
-
-  @media screen and (max-width: 320px) {
-    .lead__title {
-      min-width: 288px;
-      font-size: 40px;
-      line-height: 44px;
-      }
-    } 
+@media screen and (max-width: 320px) {
+  .lead__title {
+    min-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+} 
