@@ -6,7 +6,6 @@
   font-size: 18px;
   line-height: 29.34px;
   display: grid;
-  align-self: start
 }
 
 .place__text:first-child{

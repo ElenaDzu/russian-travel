@@ -6,26 +6,26 @@
   font-style: normal;
   font-size: 54px;
   line-height: 58px;
+}
+
+@media screen and (max-width: 786px) {
+  .intro__title {
+    max-width: 690px;
   }
+} 
 
-  @media screen and (max-width: 786px) {
-    .intro__title {
-      max-width: 690px;
-      }
-    } 
-
-  @media screen and (max-width: 688px) {
-    .intro__title {
-      height: auto;
-      font-size: 50px;
-      line-height: 55px;
-      }
-    } 
+@media screen and (max-width: 688px) {
+  .intro__title {
+    height: auto;
+    font-size: 50px;
+    line-height: 55px;
+  }
+} 
 
 @media screen and (max-width: 320px) {
   .intro__title {
     font-size: 32px;
     line-height: 35px;
     min-width: 288px;
-    }
-  } 
+  }
+} 
