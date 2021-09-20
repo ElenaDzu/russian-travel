@@ -4,7 +4,6 @@
   flex-direction: row;
   width: 100%;
   max-width: 1280px;
-  min-height: 18px;
   box-sizing: border-box;
 }
 
@@ -14,7 +13,7 @@
     margin-top: 88px;
   }
 }
-    
+
 @media screen and (max-width: 768px) {
   .footer {
     max-width: 720px;
@@ -34,6 +33,5 @@
     margin-left: 16px;
     flex-direction: column;
     max-width: 186px;
-    height: 310px;
-  }    
+  }
 }

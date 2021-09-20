@@ -2,32 +2,31 @@
   margin: 0;
   padding: 0;
   margin-top: 114px;
-  margin-bottom: 0;
   margin-left: 11.56%;
   margin-right: 34.53%;
-  width: 100%;
-  max-width: 690px;
+  max-width: 53%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .intro {
     margin-right: 27.93%;
     margin-left: 4.68%;
+    max-width: 67%;
   }
-} 
-  
+}
+
 @media screen and (max-width: 768px) {
   .intro {
-    max-width: 720px;
+    max-width: 93%;
     margin-top: 110px;
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: 24px;
+    margin-left: 24px;
   }
-} 
+}
 
 @media screen and (max-width: 320px) {
   .intro {
     margin: 64px 16px;
-    min-width: 288px;
+    min-width: 90%;
   }
-} 
+}
