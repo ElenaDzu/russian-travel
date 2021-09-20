@@ -8,18 +8,18 @@
   display: grid;
 }
 
-.place__text:first-child{
+.place__text:first-child {
   margin-bottom: 26px;
 }
 
-.place__text:last-child{
+.place__text:last-child {
   margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
   .place__text {
     font-size: 16px;
-    line-height: 26.08px; 
+    line-height: 26.08px;
   }
 }
 

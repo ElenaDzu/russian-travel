@@ -5,11 +5,11 @@
   font-style: normal;
   font-size: 16px;
   line-height: 18px;
-  color: #FFFFFF;
+  color: #ffff;
   text-decoration: none;
 }
 
-.footer__link:hover{
+.footer__link:hover {
   opacity: 0.8;
   cursor: pointer;
 }

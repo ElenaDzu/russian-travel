@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   .place__website {
     margin: 32px auto 0;
     min-width: 288px;
