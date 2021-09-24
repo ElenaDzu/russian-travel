@@ -3,15 +3,15 @@
   padding: 0;
   margin-top: 114px;
   margin-left: 11.56%;
-  margin-right: auto;
+  margin-right: 34.53%;
   max-width: 53%;
   width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
-    margin-right: auto;
     margin-left: 4.68%;
+    margin-right: 27.93%;
     max-width: 67%;
   }
 }
@@ -20,14 +20,16 @@
   .intro {
     max-width: 93%;
     margin-top: 110px;
-    margin-right: 24px;
-    margin-left: 24px;
+    margin-right: 3.12%;
+    margin-left: 3.12%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    margin: 64px 16px;
+    margin-top: 64px;
+    margin-left: 5.55%;
+    margin-right: 5.55%;
     min-width: 90%;
   }
 }

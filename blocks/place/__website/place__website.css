@@ -1,9 +1,13 @@
 .place__website {
   grid-area: place__website;
-  margin: 106px auto 0 0;
+  margin: 0;
   max-width: 456px;
   width: 100%;
-  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 12px 22px ;
+  grid-template-columns: auto;
+  gap: 12px;
+  align-content: end;
 }
 
 @media screen and (max-width: 768px) {
