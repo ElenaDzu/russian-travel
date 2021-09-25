@@ -16,9 +16,22 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+  .place__text {
+    font-size: 18px;
+    line-height: 29.34px;
+  }
+}
+
+@media screen and (max-width: 950px) {
   .place__text {
     font-size: 16px;
     line-height: 26.08px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__text {
+    max-width: 288px;
   }
 }

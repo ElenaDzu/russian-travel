@@ -4,9 +4,21 @@
   font-size: 18px;
   line-height: 22px;
   max-width: 360px;
-  margin: 32px auto 0;
+  margin: 32px auto 245px;
   text-align: center;
   position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    margin-bottom: 194px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    margin-bottom: 115px;
+  }
 }
 
 @media screen and (max-width: 520px) {
