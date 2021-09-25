@@ -4,7 +4,7 @@
   max-width: 456px;
   width: 100%;
   display: grid;
-  grid-template-rows: 12px 22px ;
+  grid-template-rows: 12px 22px;
   grid-template-columns: auto;
   gap: 12px;
   align-content: end;
