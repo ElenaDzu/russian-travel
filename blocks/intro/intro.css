@@ -1,10 +1,10 @@
 .intro {
   margin: 0;
   padding: 0;
-  margin-top: 114px;
+  margin-top: 92px;
   margin-left: 11.56%;
   margin-right: 34.53%;
-  max-width: 53%;
+  max-width: 53.90625%;
   width: 100%;
 }
 
@@ -12,24 +12,24 @@
   .intro {
     margin-left: 4.68%;
     margin-right: 27.93%;
-    max-width: 67%;
+    max-width: 67.3828125%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    max-width: 93%;
-    margin-top: 110px;
-    margin-right: 3.12%;
-    margin-left: 3.12%;
+    max-width: 93.75%;
+    margin-top: 88px;
+    margin-right: 24px;
+    margin-left: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
     margin-top: 64px;
-    margin-left: 5.55%;
-    margin-right: 5.55%;
-    min-width: 90%;
+    margin-left: 16px;
+    margin-right: 16px;
+    min-width: 288px;
   }
 }
