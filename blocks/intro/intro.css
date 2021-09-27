@@ -35,8 +35,8 @@
   .intro {
     max-width: 388px;
     margin-top: 70px;
-    margin-right: 16px;
-    margin-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
