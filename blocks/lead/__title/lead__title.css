@@ -14,7 +14,7 @@
   }
 }
 
-@media (max-width: 1023px) and (min-width: 599px) {
+@media (max-width: 767px) and (min-width: 599px) {
   .lead__title {
     max-width: 550px;
     font-size: 65px;

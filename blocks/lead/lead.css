@@ -1,6 +1,6 @@
 .lead {
   padding: 0;
-  margin: 56px 148px 0;
+  margin: 56px auto 0;
   width: 100%;
   max-width: 984px;
 }
@@ -8,40 +8,34 @@
 @media (max-width: 1279px) and (min-width: 1024px) {
   .lead {
     margin-top: 48px;
-    margin-left: 48px;
-    margin-right: 48px;
     max-width: 928px;
   }
 }
 
 @media (max-width: 1023px) and (min-width: 768px) {
   .lead {
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 48px;
     max-width: 768px;
   }
 }
 
 @media (max-width: 767px) and (min-width: 599px) {
   .lead {
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 48px;
     max-width: 599px;
   }
 }
 
 @media (max-width: 598px) and (min-width: 420px) {
   .lead {
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 48px;
     max-width: 420px;
   }
 }
 
 @media (max-width: 419px) and (min-width: 320px) {
   .lead {
+    margin-top: 48px;
     max-width: 320px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
